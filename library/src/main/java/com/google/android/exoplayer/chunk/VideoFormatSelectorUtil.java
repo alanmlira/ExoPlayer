@@ -167,10 +167,10 @@ public final class VideoFormatSelectorUtil {
         }
       }
       // Assume the video is H.264.
-      if (format.width * format.height > maxDecodableFrameSize) {
-        // Filtering format because it exceeds the maximum decodable frame size.
-        return false;
-      }
+//      if (format.width * format.height > maxDecodableFrameSize) {
+//        // Filtering format because it exceeds the maximum decodable frame size.
+//        return false;
+//      }
     }
     return true;
   }
